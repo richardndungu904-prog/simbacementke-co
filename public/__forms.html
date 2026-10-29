@@ -1,0 +1,39 @@
+<!-- Netlify build-bot form detection only. Not rendered to visitors. -->
+<html>
+  <body>
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="contact" />
+      <input name="bot-field" />
+      <input name="name" />
+      <input name="phone" />
+      <input name="email" />
+      <textarea name="message"></textarea>
+    </form>
+
+    <form name="order" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="order" />
+      <input name="bot-field" />
+      <input name="name" />
+      <input name="phone" />
+      <input name="location" />
+      <textarea name="notes"></textarea>
+      <textarea name="order-items"></textarea>
+      <input name="order-estimate" />
+    </form>
+
+    <form name="delivery-confirmation" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="delivery-confirmation" />
+      <input name="bot-field" />
+      <input name="name" />
+      <input name="phone" />
+      <input name="delivery-date" />
+      <select name="condition">
+        <option value="yes-complete"></option>
+        <option value="partial"></option>
+        <option value="damaged"></option>
+        <option value="not-delivered"></option>
+      </select>
+      <textarea name="notes"></textarea>
+    </form>
+  </body>
+</html>
